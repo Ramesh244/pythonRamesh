@@ -1,0 +1,547 @@
+1.Given a string S and a character C (as string of length 1), return a string with the characters surrounding any occurrence of C reversed. 
+For example, if S is "Hello beautiful world" and C is a space, return "Hellb oeautifuw lorld" 
+take input as a string with many words,seperated by spaces,swap the last character of 1st word and 1st character of the next word.
+hint: split the string into a list and loop the list and write if condition for whitespaces where occured,
+if condition is True then swap the last character of the word
+with 1st character of the next word. 
+ex1: input=" ravi teja kumar"
+    output="ravt iejk aumar"
+ex2: input="happy new year"
+    output:happn yey wear"
+
+2.given integer n as input, write a program to display the sum of the first n terms in harmonic series.
+The series is:1+1/2+1/3+1/4+1/5+......+1/N (N terms)
+input:
+      The first line of input is an integer N
+output:
+      print the sum rounded upto 2 decimal places
+explanation:
+      for n=5
+      the sum of first 5 terms in harmonic series 1+1/2+1/3+1/4+1/5
+      so, the output should be 2.28
+sample input1: 5
+sample output1: 2.28
+sample input2: 3
+sample output2: 1.83
+3.1)Write a Python program whic will accept  Student name,class and subject marks .
+It will show the students total marks , percentage ,
+which grade the student secured(Percentage>90: Grade=O,Percentage>80:Grade=E like this u have to calculate and if the student is fail it will show Grade=F) and also check the student pass or Fail.
+If the student is fail in one subject then it will show fail.
+If the subject mark is less than 35 then it will show fail and if the percentage is less than 40 then it will show Grade=F.
+
+Student Name:Rakesh Kumar Sahoo
+Student Studying in :X
+----------------------------------------
+	Subjects	Marks
+----------------------------------------
+	Eng		67
+	Tel		66
+	Sci		88
+	maths		99
+	soc		88
+----------------------------------------
+	Total Marks=408
+	Percentage=81.6
+	Status=Pass
+	Grade=E
+4.given alist of integers write a program to print the count of all possible unique combinations of numbers whose sum is equal to k
+explanation:for example if given list of integers and k are 
+2 4 6 1 3
+6
+all possible combinations of the given list are
+(6,)(2,)(4,)(1,)(  3,)
+(2,4)(1,2)(3,4)(4,6)(1,4)(2,3)(2,6)(3,6)(1,6)(1,3)
+(3,4,6)(2,3,6)(1,2,6)(1,2,3)(1,4,6)(1,3,4)(2,3,4)(1,3,6)
+(2,3,4,6)(1,2,3,4)(1,2,4,6)(1,2,3,6)(1,3,4,6)
+out of all the above combinations  the unique combinations with the sum equal to 6 are
+6
+2 4
+2 1 3
+so the output should be the count of unique combinations which is 3
+for example if the given list of integers and k are
+-1 4 5 6 7 8 2 4 5 2 3 8
+7
+The unique combinations with the sum equal to 7 are
+7
+-1 8
+3 4
+2 5
+-1 3 5
+-1 4 4
+-1 2 6
+2 2 3
+-1 2 2 4
+so the output should be the count of unique combinations which is 9
+input:  2 4 6 1 3
+         6
+output:  3
+Note: Dont use permutations and combiations method
+5.IPL MATCH DETAILS:-
+
+write a program that reads all the match outcomes and summarizes the information of all the matches.Points are given to the teams based on the outcome of the match.A win esrns a team 3 points.A draw earns 
+1.A loss earns O.
+The following info is expected:
+
+MP:Matches played
+W:Matches Won
+D:Matches Drawn(Tied)
+L:Matches Lost
+P:Points
+
+The team info should be displayed in descending order of points
+
+INPUT
+----
+
+The first line contains a single integer N,denoting the total no.of matches played.The following N lines contains outcomes of N matches.
+
+Each of those lines has info on the teams(T1,T2)which played and the outcome(O)in format T1;T2;O.
+
+The outcome(O)is one of 'win','loss','draw' and refers to the first team instead.see sample Input/output for better understanding.
+
+The team name may contain spaces.
+
+OUTPUT
+------
+
+The output should contain summarized info of all the matches in a format similar to 'Team:RCB,Matches played:3,Won:2,Lost:0,Draw:1,Points:7'for each team in anew line.
+
+If there  are no teams to print in summary,print "No Output".
+
+Constraints
+-----------
+
+Names of teams may contain spaces but will be less than 24 characters
+
+100>=N>=0
+
+
+Sample Input:-
+-------------
+
+6
+CSK;RCB;loss
+RCB;DD;draw
+MI;KKR;win
+KKR;RCB;loss
+CSK;DD;draw
+MI;DD;draw
+
+Sample output
+-------------
+
+Team:RCB,Matches played:3,Won:2,Lost:0,Draw:1,Points:7
+Team:MI,Matches played:2,Won:2,Lost:0,Draw:1,Points:4
+Team:DD,Matches played:3,Won:2,Lost:0,Draw:3,Points:3
+Team:CSK,Matches played:2,Won:0,Lost:1,Draw:1,Points:1
+Team:KKR,Matches played:2,Won:0,Lost:2,Draw:0,Points:0
+6.Write a Python program to find the second lowest grade of any student(s) from the given names and grades of each student using lists and lambda.
+Input number of students, names and grades of each student.
+
+Note: If there are multiple students with the same grade then print each name alphabetically.
+
+sample out:
+Input number of students:  5
+Name:  S ROY
+Grade:  1
+Name:  B BOSE
+Grade:  3
+Name:  N KAR
+Grade:  2
+Name:  C DUTTA
+Grade:  1
+Name:  G GHOSH
+Grade:  1
+
+Names and Grades of all students:
+[['S ROY', 1.0], ['B BOSE', 3.0], ['N KAR', 2.0], ['C DUTTA', 1.0], ['G GHOSH', 1.0]]
+
+Second lowest grade:  2.0
+
+Names:
+N KAR
+7.RaceCar
+
+
+Now we need a RaceCar in our cars world
+
+You are given two  classes Car and RaceCar
+
+A Race Car is a Car but with the additional behaviours'
+
+Inherit the Car class into RaceCar Class and build the additional features
+
+implement the car and RaceCar classes with described attributes and methods
+
+
+RaceCar have following attributes and methods
+Attributes:
+color,max_speed,acceeleration,tyre_friction,is_engine_started,current_speed,nitro
+note: nitro is race_car attributes as child attribute
+
+Methods:
+start_engine,stop_engine,accelerate,apply_breaks,sound_horn
+
+override Methods:
+1. sound_horn:
+   print peeppeep or beep beep if Race_car engine is on 
+   print car has not started yet if Race_car engine is off
+
+2.accelerate:
+    when car accelerates when nitro points are available the current_spped will be add 20 within max limits and nitro get reduced by 1 point 
+
+
+
+racecar = color:"red",max_speed=250,acceleration =50,tyre_friction=30,nitro=4
+8.Write a Python class named Student with two instances student1, student2 and assign given values to the said instances attributes.
+Print all the attributes of student1, student2 instances with their values in the given format.
+
+Input values of the instances:
+student_1:
+student_id = "V12"
+student_name = "Ernesto Mendez"
+student_2:
+student_id = "V12"
+marks_language = 85
+marks_science = 93
+marks_math = 95
+Expected Output:
+student_id -> V12
+student_name -> Ernesto Mendez
+student_id -> V12
+marks_language -> 85
+marks_science -> 93
+marks_math -> 95
+9.
+A Truck is a Car but with the additional behaviours.
+Inherit the Car class into Truck class and build the additional features.
+
+Truck Car have following attributes and methods
+Attributes:
+color,max_speed,acceeleration,tyre_friction,is_engine_started,current_speed,nitro
+note: nitro is race_car attributes as child attribute
+
+Methods:
+start_engine,stop_engine,accelerate,apply_breaks,sound_horn
+Sample Input
+Checking Default Tests
+Sample Output
+False
+50
+• You can copy the implementation of Car class from
+the previous set and add new features on top of
+that code.
+Sample Input
+Checking Default Tests
+Sample Output
+False
+50
+25
+0
+Cannot load cargo more than max
+True
+Cannot load cargo during motion
+Cannot unload cargo during moti
+Honk Honk
+Car has not started yet
+
+10.Univariate quadratic polynomials are the most common polynomials. 
+Polynomials with only one unknown number and the highest degree of 2 are called univariate quadratic polynomials.
+ Its standard form is ax^2+bx+c
+Please complete the code in solution.py to realize the function of equation.
+The equation function receives three parameters a, b, and c as the quadratic term, the primary term, and the constant term of the standard form of a bivariate quadratic polynomial. 
+Please use the lambda function to pass in an unknown number x for the equation function and take this lambda function as the return value of the equation function. 
+Find the result of the univariate quadratic polynomial ax^2+bx+c
+
+Example
+The quizzer runs main.py by executing python main.py {input_path} , which outputs the updated string after running, and you can see how the code is running in main.py.
+
+Example 1
+
+Input:
+2 3 7
+3
+Output:
+
+34
+
+
+Explanation:
+After passing in the first row of parameters, the expression is 2x^2+3x+7
+
+When x=3 the result of the expression is 34
+
+Example 2
+
+Input:
+
+1 2 0
+5
+Output:
+
+35
+Explanation:
+After passing in the first row of parameters, the expression is x^2+2x+0
+When x=5 the result of the expression is 35
+11.create a banking application,to check current balance,to deposite,to withdraw.
+
+account class
+atributes-name,balance,min_balance
+methods-deposite,withdraw,printstatement
+
+currentaccount class.....currentaccount balance
+atributes-name,balance
+methods- __str__
+give min_balance
+
+
+saving account class.....currentaccount balance
+atributes-name,balance
+methods- __str__
+
+deposit rs.5000 in saving account
+withdraw rs.7000 from saving
+
+input:
+1.print current balance
+2.print current balance after deposit-5000
+3.print current balance after withdraw-10000
+4.withdraw 6000 rupees
+
+output:
+1.print current balance 10000
+2.print current balance after deposit-15000
+3.print current balance after withdraw-5000
+4.insufficient balance
+12.
+Max Contiguous Subarray:
+Given a list of integers, write a program to
+identify contiguous sub-list that has the largest
+sum and print the sub-list. Any non-empty slice
+of the list with step size 1 can be considered as
+contiguous sub-list.
+
+Input:
+The input will contain space-separated integers,
+denoting the elements of the list.
+
+Output
+The output should be space-separated integers.
+
+Explanation
+For example, if the given list is [2, -4, 5, -1, 2,
+-3], then all the possible contiguous sub-lists
+will be,
+
+Explanation
+For example, if the given list is [2, -4, 5, -1, 2,
+-3], then all the possible contiguous sub-lists
+will be,
+[2]
+[2,-4]
+[2,-4, 5]
+[2,-4, 5, -1]
+[2,-4, 5, -1, 2]
+[2,-4, 5, -1, 2, -3]
+[-4]
+[-4, 5]
+[-4, 5, -1]
+[-4, 5, -1, 2]
+[-4, 5, -1, 2, -3]
+[5]
+[5, -1]
+[5, -1, 2]
+[5, -1, 2, -3]
+[-1]
+[-1, 2]
+[-1, 2, -3]
+[2]
+[2, 3]
+[-3]
+
+Sample Input 1
+2 -4 5 -1 2 -3
+Sample Output 1
+5 -1 2
+Sample Input 2
+-2 -3 4 -1 -2 1 5 -3
+Sample Output 2
+4 -1 -2 1 5
+13.Write a Python GUI program to create  certain number of rows and columns of a Tkinter grid? and add differt color on each column
+write a name,id,batch,feedback are columns 
+each column has differnt color
+14.using functools write a program on partialmethod, url_cache and total_ordering
+15. Write a Python program to print the following string in a specific format (see the output).
+Sample String : "Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high, Like a diamond in the sky. Twinkle, twinkle, little star, How I wonder what you are"
+
+Output :
+
+Twinkle, twinkle, little star,
+    How I wonder what you are! 
+        Up above the world so high,           
+        Like a diamond in the sky. 
+Twinkle, twinkle, little star, 
+    How I wonder what you are
+16.write a python program the game of rock,paper and scissor?
+import a random module and do the program 
+17.Polynomial
+
+Given polynomial, write a program that prints
+polynomial in Cix^Pi + Ci-1x^Pi-1 + ... + C1x + CO
+format.
+
+Input
+The first line contains a single integer N.
+Next N lines contain two integers Pi, Ci
+separated with space, where Pi denotes power
+and Ci denotes coefficient of Pi.
+
+Output
+Print the polynomial in the format Cix^Pi + Ci-
+1x^Pi-1 + ... + C1x + CO, where Pi's are powers
+in decreasing order, Ci is coefficient, and CO is
+constant. There will be space before and after
+the plus or minus sign.
+If the coefficient is zero, then don't print the
+term.
+If the term with the highest degree is negative,
+in decreasing order, Ci is coefficient, and CO is
+constant. There will be space before and after
+the plus or minus sign.
+If the coefficient is zero, then don't print the
+term.
+If the term with the highest degree is negative,
+the term should represent -Cix^Pi.
+For the term where power is 1, represent it as
+C1x instead of C1x^1.
+If the polynomial degree is zero and the
+constant term is also zero, then print 0 to
+represent the polynomial.
+For term Cix^Pi, if the coefficient of the term Ci
+is 1, print x^Pi instead of 1x^Pi.
+
+Explanation
+If N = 4
+For power 0, the coefficient is 5
+For power 1, the coefficient is 0
+For power 2, the coefficient is 10
+For power 3, the coefficient is 6.
+Then polynomial represents "6x^3 + 10x^2 + 5"
+For power 2, the coefficient is 10
+For power 3, the coefficient is 6.
+Then polynomial represents "6x^3 + 10x^2 + 5"
+Constraints
+N <= 100
+0 <= Pi < 1000
+-1000 <= Ci <= 1000
+
+Sample Input
+4
+0 5
+10
+2 10
+36
+
+Sample Output
+6x^3 + 10x^2 + 5
+18. Drawing a image Rainbow Challenge using turtule module.
+19.write a python program on sprial number using inner function
+and decorator
+eg:-1 2 3
+    8 9 4
+    7 6 5
+20.Problem Statement: Write a program to build a simple Student Management System using Python which can perform the following operations in oops concepts 
+
+1.Accept
+2.Display
+3.Search
+4.Delete
+5.Update
+21.''' Write a  Python Program using Multithreading ,
+Consider a couple who is having a Joint account and both are having their ATM cards.
+They come to different ATMs and try to withdraw some amount at the same time.
+Let’s say the total balance in the account is 500 and Wife tries to withdraw 450
+and the husband tries to withdraw 100. When they swipe the card for withdrawing money,
+the balance shown will be 500. Two threads will be created for the transaction,
+out of which only one thread should be successful and the other should fail.
+If both the threads get successful then its a loss to the bank.
+So, the threads should be in synchronization so that one fails and the other wins.'''
+22.Given a sentence as input print all the unique combinations of two words in lexicographical order
+explanation:
+if given sentence is raju plays cricket the possible combintion of two are (cricket,plays),(cricket,raju),(plays,raju).
+input:
+raju play cricket
+output:
+cricket plays
+cricket raju
+plays raju
+23.write a python program using basic mathematic operations like 
+addition, subtraction, multiplication, division,floor division 
+by applying multithreading concept
+24.take a list of 8 numbers
+lst = [1,2,3,4,5,6,7,8]
+and add the alternative numbers in list 
+
+after first iteration list should be [4,6,8,10,12,14]
+after second iteration [12,16,20,24]
+after third iteration [32,40]
+
+when list is having two elements print that list in the output
+25.
+Pager:
+Imagine a pager with only one button. For a letter "A", you press the button one times. For "B", you press it two times.
+ For "Z", you press twenty six (26)times.
+Given a string "S",print thee total number of times thr button should be pressed
+Input:
+The first line of input contains a string
+
+Output:
+The output should be a single integer denoting the total number of times the button is pressed.
+
+Explanation:
+For example,if the given string is Ramesh, Then
+the total number of times the button pressed is r:18 a:1 m:13 e:5 s:19 h:8
+18+1+13+5+19+8=64
+The output should be 64
+(Note:This is will be not case sensitive)
+Example1:
+Sample Input:
+usha
+Sample Output:
+49
+Example2:
+Sample Input:
+tejeshwari
+Sample Output:
+128
+Example1:
+Sample Input:
+bazequa
+Sample Output:
+73
+26.write a program to merge characters of two strings into single string by taking characters alternatively.
+Input:
+Take any two strings(note:The string contains alpha numeric characters also)
+ex:
+s1=""
+s2=""
+
+Output:
+The output should be a single string such a way that input strings characters are printed alternatively.
+
+Explanation:
+For example,if the given string1 is "gopi" and string2 is "venkat".
+
+The output should be "gvoepmikat"
+
+Example1:
+
+Sample Input:
+priya12
+45rohit
+Sample Output:
+p4r5iryoah1i2t
+27.
+
+
+

@@ -1,0 +1,18 @@
+<!Doctype>
+<html>
+<head>
+</head>
+<body>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSctN2rG-zg8-DPW6uqERy070rS7LGvkoQXZA&usqp=CAU" alt="ramesh" width="300px" height="300px"/>
+<img src="D:\1.jfif" alt="ramesh" width="300px" height="300px"/>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSctN2rG-zg8-DPW6uqERy070rS7LGvkoQXZA&usqp=CAU" alt="ramesh" width="300px" height="300px"/>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSctN2rG-zg8-DPW6uqERy070rS7LGvkoQXZA&usqp=CAU" alt="ramesh" width="300px" height="300px"/>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSctN2rG-zg8-DPW6uqERy070rS7LGvkoQXZA&usqp=CAU" alt="ramesh" width="300px" height="300px"/>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSctN2rG-zg8-DPW6uqERy070rS7LGvkoQXZA&usqp=CAU" alt="ramesh" width="300px" height="300px"/>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSctN2rG-zg8-DPW6uqERy070rS7LGvkoQXZA&usqp=CAU" alt="ramesh" width="300px" height="300px"/>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSctN2rG-zg8-DPW6uqERy070rS7LGvkoQXZA&usqp=CAU" alt="ramesh" width="300px" height="300px"/>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSctN2rG-zg8-DPW6uqERy070rS7LGvkoQXZA&usqp=CAU" alt="ramesh" width="300px" height="300px"/>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSctN2rG-zg8-DPW6uqERy070rS7LGvkoQXZA&usqp=CAU" alt="ramesh" width="300px" height="300px"/>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSctN2rG-zg8-DPW6uqERy070rS7LGvkoQXZA&usqp=CAU" alt="ramesh" width="300px" height="300px"/>
+</body>
+</html>
