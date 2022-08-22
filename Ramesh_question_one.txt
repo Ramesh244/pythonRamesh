@@ -1,0 +1,295 @@
+Interviewd By Fatima
+
+Introduction
+________________________
+1.what is python?
+2.features of python
+3.How is memory managed in python?
+4.What is garbage collector?
+5.What are the drawbacks of python?
+
+Identifiers
+------------------
+1.What is an identifier and rules of identifiers?
+2.Why we cannot use keywords as identifiers?
+3.Give an example for how an identifier should not be written.
+4.Why we cannot use special characters in identifiers except _.
+5.Is identifier case sensitive?
+
+Literals
+--------------------
+1.What are literals?
+2.What are different types of literals?
+3.examples for collection literals?
+4.What is None?
+5.What are string literals?
+
+Operators
+----------------------
+1.What is an operator?
+2.what are different types of operators?
+3.what are relational operator?
+4.What kind of output is generated in bitwise operation?
+5.Give an example program on identity operator?
+
+Keywords
+-----------------------------
+1.Why do we use async and await keyword?
+2.What is difference between async and sleep?
+3.What is the differnce between assert and if?
+4.What are mostly used keywords in python?
+5.Differnce between is and in keyword?
+
+List
+---------------------------
+1.What is list slicing?
+2.Write a program showing list slicing?
+3.Does a list need to be homogeneous?
+4.How do we remove all the elements in a list?
+5.How can we concatinate two list?
+
+Tuple
+--------------------------
+1.What are the methods in Tuple?
+2.What is Tuple?
+3.How can we sort a Tuple?
+4.How can we delete a Tuple?
+5.How to compare two elements if they have same elements?
+
+Set
+-----------------------------------
+1.What is a set?
+2.What is difference between add and union?
+3.Is a set a subset of itself?
+4.Write a program showing subset and superset?
+5.Difference between subset and proper subset?
+
+Dictinary
+-----------------------------
+1.What is a dictionary?
+2.How get key and value pair in a dictonary?
+3.Is is possible to get length of dictonary?How?
+4.Write a program to write convert two lists into dictinary
+5.How to update a dictinary?
+
+Others
+___________________________________________
+1.write a program on product on the number
+2.what are string methods 
+3.write program fibionobi seriees
+4.count frequency of words 
+5.write a program to check given number is strong number?
+6.write a perfect number 
+7. write a program on collaz number 
+implicity& explicity
+__________________________________________________
+
+1.what is implicity
+2.what is explicity
+3.write a program to get implicity and explicity
+
+conditional statements
+__________________________________________
+1.what is shot hand if statements?
+2.what is differnce b/w if & if lander ?
+3.write a program remove spcial charates in given string?
+4.write a collaz sequence?
+5.why we use elif condition?
+
+while loop
+______________________________________
+
+1.write program to check given number  Amstrong number?
+2.what is while loop?
+3.write a program sum of n natural numbers?
+4.write a program create infinite loop?
+5.check given number is prime or not?
+
+for loop
+_________________________________________________________
+1.what is for loop?
+2.what is differnce between for loop & while loop?
+3.write a program middile of the leters goes last?
+4.write a program on diamond shape?
+5.write a program on this pattern 
+#
+##
+###
+####
+#####
+______________________________________________
+
+
+nested loop
+_______________________________________________________________
+1.What is nested loop?
+2.Can a for loop be inside while loop and vice versa?
+3.Add each and every list element with another ?
+4.Example showing while inside a for loop
+5.pattern:
+*****
+****
+***
+**
+*
+___________________________________________________________________
+
+Control statements
+____________________________________________________________________
+1.what are control statement
+2.Difference between break and continue
+3.What is pass
+4.Example showing break, continue and pass
+5.Example showing break and continue in a single code
+
+Functions
+_________________________________________________________________________
+1.What are functions?
+2.How many types of functions are there?
+3.What are lambda functions?
+4.What are recursive functions?
+5.Write a program for factorial number using recurive function?
+6.Give examples for built in functions
+7.Odd and even using lambda functions
+8.What is filter
+9.Multiplication table using lambda functions
+10.What is map
+11.what is difference between recursive function and closure function
+12.Give an example for closure functions
+13.What is reduce funtion
+14.Why do we need lambda functions?
+15.Armstrong number using functions
+16.What are user defined functions?
+
+Comprehension
+_______________________________________________________________________________
+1.what are comprehension in python?
+2.Convert list elements to uppercase using comprehensions
+3.remove an element from a list using list comprehensions
+4.print this {(7, 4), (6, 5), (6, 4), (7, 6), (6, 6), (7, 5)}  using  comprehension
+5.iterate over key and value in dictionary using comprehension
+
+Arrays
+_______________________________________
+1.What are arrays?
+2.What is the difference between arrays and list?
+3.Write a program showing sum of elements of arrays?
+
+
+OOPs:
+_____________________________________
+1.What is class
+2.What is object
+3.What is constructor and a method
+4.What is init
+5.What is self
+6.What is inheritance
+7.What are different types of inheritance?
+8.Difference between multi level and multiple inheritance
+9.Program showing hierarical inheritance
+10.What is polymorphism
+11.What is duck typing and strong typing?
+12.what is encapsulation?
+13.Difference between private and protected
+14.Difference between overloading and overriding
+15.What is abstraction
+16.What is abstract method
+17.What is the difference between instance method and class method
+18.What is use of using class method when there is static method
+19.What is a concrete method
+20.What is an interface
+21.What is monkey patching
+22.what is MRO?
+
+Modules and Packages
+____________________________________
+1.What is a module?
+2.What is the use of module?
+3.What is a package?
+4.Give an example by creating a module and implementing it?
+5.How can we get all attributes and functions of a package?
+6.What is a python path?
+7.How can we import each and every function in  a module?
+8.How many packages are you familiar with?
+9.What is smtp module
+10.What is turtle used for?
+11.Why do we use Tkinter?
+12.Can you explain about date time module?
+
+Generators
+_____________________________________________
+1.What is a generator?
+2.What is a generator expression
+3.Give an example for generator expression
+4.Write a program showing generator
+
+Decorators
+______________________________________________
+1.What is a decorator?
+2.What is the use of using decorator
+3.Example showing decorator with and without arguments
+
+Iterator
+_____________________________________________________
+1.What is an iterator
+2.Use of itearor
+3.What is next in iterator
+4.Give an example of iterator
+5.What is the difference between iterator and generator
+
+Pickling and Unpickling
+___________________________________________________
+1.What is a pickling and Unpicking
+2.Use of Pickling and Unpickling
+3.What is dump
+4.What is load
+5.Give an example showing pickling and unpicking
+
+File Handling
+________________________________________________________
+1.What is file handling
+2.Use of File handling
+3.Write a program to create and write into the file and count the no of words in a file
+4.Write a program to merge 2 files
+
+Multi Threading
+______________________________________________
+1.What is a thread
+2.What is multi threading
+3.What are the ways to create a thread
+4.What is acquire and release
+4.What are thread class methods
+5.Difference between child and main thread
+6.What is the difference between run() and join()
+7.Write a program to create thread
+8.what is main thread
+
+Exception handling
+___________________________________________________
+1.What is exceptional handling?
+2.What is its use
+3.How do we handle an exception
+4.What is try and except
+5.What is error and exception
+6.Can we use multiple except block
+7.What is else is used for in exception 
+8.Write a program to handle assertionn error
+
+Magic Methods
+_______________________________
+1.What are magic methods
+2.What are magic methods also called as?
+3.Where are magic methods used?
+4.What are use of magic methods
+5.Can you name some magic method with examples
+
+Logging
+_____________________________________________
+1.What is logging
+2.What is the need for logging
+3.What are the levels of loggin
+4.Can you give the priority 
+5.What are formatters
+6.What is a logRecord
+7.Write a program to create a file mode to write an error message
+
